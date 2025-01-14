@@ -1,0 +1,23 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.my-btn {
+    border: 1px solid #333;
+}
+.list-area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.split-line {
+    width: 2px;
+    height: 480px;
+    background-color: #02376C80;
+    margin: 0 20px;
+}

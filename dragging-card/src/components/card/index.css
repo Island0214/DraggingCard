@@ -1,0 +1,24 @@
+.c-box {
+    width: 400px;
+    height: 80px;
+    border: 2px solid #C0CDDA;
+    background-color: #DFE6ED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #02376C;
+    cursor: pointer;
+    user-select: none;
+}
+
+.placeholder {
+    border-style: dashed;
+    background-color: #fff;
+    color: #fff;
+}
+.dragging {
+    position: absolute;
+    border-color: #0A84FF;
+    background-color: #C1E0FF;
+    z-index: 9999;
+}
